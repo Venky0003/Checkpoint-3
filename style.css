@@ -389,10 +389,10 @@ hr{
     font-size: 14px;
     font-weight: 500;
 }
-.absolute-primary{
+/* .absolute-primary{
     position:absolute;
     right:0px;
-}
+} */
 .margin-top-btn{
     margin-top: 35px;
     background-color: var(--bgcolor);
