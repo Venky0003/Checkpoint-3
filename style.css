@@ -349,13 +349,19 @@ hr{
 }
 .flex-55{
     flex:0 1 55%;
+    /* border: 1px solid red; */
 }
-.flex-44{
-    flex:0 1 44%; 
+.right{
+    margin-right:10px;
 }
-
-.cases-img img{
-    width:90%;
+.flex-42{
+    flex:0 0 42%; 
+}
+.hidden{
+    overflow: hidden;
+}
+.flex-42 img{
+    width:100%;
     height:100%;
     margin-right: 5px;
 }
@@ -386,18 +392,6 @@ hr{
 .absolute-primary{
     position:absolute;
     right:0px;
-}
-.image-cut{
-     margin-left: 120px;
-     position: absolute;
-     right:-260px;
-     top:-99px;
-     clip: rect(100px, 100px, 450px, 0px);
-
-}
-.image-cut img{
-    width:100%;
-    height:100%;
 }
 .margin-top-btn{
     margin-top: 35px;
@@ -446,10 +440,6 @@ hr{
 .padding-top-bot{
     padding: 80px 0;
 }
-
-/* .flex-70{
-    flex:0 1 60%;
-} */
 .form-control{
     width:250px;
     height:40px;
